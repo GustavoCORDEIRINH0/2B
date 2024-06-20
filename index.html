@@ -10,8 +10,16 @@
 <body>
     <header class="cabecalho">
        <div class="container">
+        <input type="checkbox" id="menu" class="container_botao">
+        <label for="menu">
         <span class="cabecalho__menu-hamburguer"></span>
-        <img src="" alt="Logo da Alurabooks" class="container_imagem">
+    </label>
+    <ul class="lista_menu">
+        <li class="lista-menu_titulo">Categorias</li>
+        <li class="lista-menu_item">
+            <a href="#" class="lista-menu_link">Programação</a>
+        </li>
+    </ul>
         </div>
         <div class="container">
         <a href="#"><img src="" alt="Favoritos" class="container_imagem"></a>
@@ -19,6 +27,10 @@
         <a href="#"><img src="" alt="Perfil" class="container_imagem"></a>
     </div>
 </header>
-    <h1>Alurabook</h1>
+    <section class="banner">
+            <h2 class="banner_titulo">Já sabe por onde começar?</h2>
+            <p class="banner_texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+            <input type="search" class="banner_pesquisa" placeholder="Qual será sua proxima leitura?">
+    </section>
 </body>
 </html>
