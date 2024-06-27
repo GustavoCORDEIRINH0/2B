@@ -1,0 +1,10 @@
+@import url(header.css);
+@import url(banner.css);
+@import url(carrosel.css);
+
+.carrosel__titulo(
+    color: orange;
+    background-color: white;
+    text-align: center;
+    text transformation
+)
