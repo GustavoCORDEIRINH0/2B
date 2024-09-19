@@ -50,7 +50,7 @@
     .container__titulo-negrito{
         font-weight: 700;
     }
-    .opvoes{
+    .opcoes{
         display: flex;
     }
     .opcoes_item{
@@ -61,10 +61,10 @@
         text-decoration: none;
         color: var(--branco);
     }
-    .container__titulo-transparente{
+    .container_imagem-transparente{
         display: none;
     }
-    .cabecalho__menu-hamburger{
+    .cabecalho_menu-hamburguer{
         display: none;
     }
     .opcoes_botao:checked~.lista-menu{
@@ -75,7 +75,7 @@
         display: none;
     }
 }
-.container__titulo{
+.container_titulo{
     display: none;
 }
 .opcoes{
